@@ -1,6 +1,8 @@
 package tech.getarrays.employeemanager.model;
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee implements Serializable {
     private Long id;
     private String name;
     private String email;
